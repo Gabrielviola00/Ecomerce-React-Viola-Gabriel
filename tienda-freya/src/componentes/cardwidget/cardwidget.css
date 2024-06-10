@@ -1,0 +1,9 @@
+.imagen-carrito{
+    height: 3rem;
+    object-fit: contain;
+}
+
+
+.contenedor-carrito{
+    background-color: #A9A9A9;
+}

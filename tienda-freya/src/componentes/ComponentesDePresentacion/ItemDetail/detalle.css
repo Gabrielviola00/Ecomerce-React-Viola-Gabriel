@@ -1,0 +1,60 @@
+.contenedorr{
+    background-color: grey;
+    border-radius: 15px;
+    display: flex;
+    height: 39rem;
+    width: 55rem;
+    
+}
+
+.caja{
+    flex: 1;
+}
+
+.caja-imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.imagen{
+    display: flex;
+    object-fit: contain;
+    height: 18rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    
+    
+}
+
+.caja-descripcion{
+    background-color: white;
+    margin: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.descripcion{
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+.cantidad{
+    color: black;
+}
+
+.contenedor-carrito{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}

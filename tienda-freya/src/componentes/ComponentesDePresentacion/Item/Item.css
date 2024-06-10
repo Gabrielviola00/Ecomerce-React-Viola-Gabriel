@@ -1,0 +1,44 @@
+.contenedor{
+    background-color: grey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    width: 18rem;
+}
+
+.contenedor-imagen{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenn{
+    display: flex;   
+    object-fit: contain;
+    height: 18rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+       
+}
+
+
+
+.cantidad{
+    color: black;
+}
+
+.contenedor-indice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
+
+.boton{
+    background-color: black;
+    color: white;
+    
+}

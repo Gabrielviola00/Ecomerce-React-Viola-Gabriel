@@ -1,0 +1,10 @@
+.contenedor{
+    margin-left: 0.7rem;
+}
+
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     gap: 14rem;
+     margin-top: 11px;
+  }
