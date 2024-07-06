@@ -1,0 +1,67 @@
+/* src/componentes/Checkout/Checkout.css */
+.checkout-container {
+  padding: 20px;
+}
+
+.checkout-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.checkout-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.checkout-item-image {
+  width: 100%;
+  height: auto;
+}
+
+.checkout-item-info {
+  margin-top: 10px;
+}
+
+.checkout-summary {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.checkout-summary h2 {
+  margin-bottom: 20px;
+}
+
+.checkout-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  margin-top: -10px;
+}
+
+.checkout-form button {
+  align-self: flex-end;
+  margin-top: 20px;
+}

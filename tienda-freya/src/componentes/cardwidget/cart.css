@@ -1,0 +1,38 @@
+.cart-container {
+  padding: 20px;
+}
+
+.cart-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.cart-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.cart-item-image {
+  width: 100%;
+  height: auto;
+}
+
+.cart-item-info {
+  margin-top: 10px;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.cart-summary h2 {
+  margin-bottom: 20px;
+}
+
+.cart-summary button {
+  margin-right: 10px;
+}
